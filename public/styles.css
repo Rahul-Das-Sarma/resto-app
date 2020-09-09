@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+background-color: rgb(245, 238, 238);  
+background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+.btn-container{
+max-width: 59%;
+width: 70%;
+float: right;
+margin-top: 25px;
+}
+.btn-pads {
+  border-radius:5px;
+  color: aliceblue;
+  background-color: rgb(56, 56, 56);
+  padding: 6px 18px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+.btn-pads:hover{
+background-color: black;
+}
+.btn-margin{
+ margin-left: 10px;
+  }
+ 
+.lil-animations{
+  -webkit-animation: fadein 1s;  
+  -moz-animation: fadein 1s;  
+   -ms-animation: fadein 1s;  
+    -o-animation: fadein 1s;  
+       animation: fadein 1s;
+}
+.lil-animations2{
+  -webkit-animation: fadein 3s; 
+  -moz-animation: fadein 3s; 
+   -ms-animation: fadein 3s;
+    -o-animation: fadein 3s; 
+       animation: fadein 3s;
+}
+.lil-animations3{
+  -webkit-animation: fadein 5s; 
+  -moz-animation: fadein 5s; 
+   -ms-animation: fadein 5s;
+    -o-animation: fadein 5s; 
+       animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.center-container{
+  text-align: center;
+  padding-top: 12em;
+  padding-bottom: 200px;
+  background-image: url("assets/menu.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+ width: 1367px;
+ height: 490px;
+
+}
+.form-position {
+  position: relative;
+}
+.form-input {
+  margin-left: 10px;
+  width: 87%;
+  padding: 6px 5px ;
+  border: 10px 10px 10px 0 ;
+  border-color: grey;
+  border-radius: 3px;
+}
+.btn-search {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+}
+.banner-background{
+  background-color: rgba(31, 16, 3, 0.986);
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+.banner-container{
+max-width: 1110px;
+width: 100%;  
+padding-top: 45px;
+color: white;
+text-align: center;
+margin: auto;
+
+}
